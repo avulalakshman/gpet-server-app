@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-197-100-79.compute-1.amazonaws.com/dfafd7qkcc13bo
+    username: uqxvxoonutaqnm
+    password: f1a2599cc9bd21fe561ef8edc46dc10794408b776b74709e6ff9ef5c3eedaa1c
+    hikari:
+      maximum-pool-size: 8
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+server:
+  port: 8090
+  servlet:
+    context-path: /gpet
